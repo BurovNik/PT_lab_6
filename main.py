@@ -63,7 +63,38 @@ print(algebraic_sum(10000000, 2))
 # task 6
 
 
-# task 10
+def alphabet():
+    n = 0
+    while n < 26:
+        yield chr(97 + n)
+        n += 1
 
+
+for it in alphabet():
+    print(it, end=' ')
+
+
+# task 10
+print('--------------------')
+
+
+def list_mode(list_1: list, k: int):
+    for it in list_1:
+        if it % k == 0:
+            yield it
+
+
+for it in list_mode([1, 2, 3, 4, 5, 6, 7, 8], 2):
+    print(it, end=' ')
 
 # task 11
+
+
+def list_odd(list_1: list):
+    for it in list_1:
+        if it % 2 == 0:
+            yield it
+
+
+for it in list_odd([1, 2, 3, 4, 5, 6, 7, 8]):
+    print(it, end=' ')
