@@ -1,5 +1,5 @@
 # part 1
-# task 1
+# task 1+
 
 def pow_list_result(func):
     def wrapper(*args, **kwargs):
@@ -17,7 +17,7 @@ def sum_list(list1: list) -> float:
 
 print(sum_list([1, 2, 3]))
 
-# task 6
+# task 6+
 
 
 def fahrenheit(func):
@@ -33,9 +33,7 @@ def temperature_celsius(t_c: float) -> float:
 
 print(temperature_celsius(0))
 
-# task 9
-
-
+# task 9+
 import time
 
 
